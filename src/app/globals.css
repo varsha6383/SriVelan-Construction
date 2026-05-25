@@ -1,0 +1,15 @@
+/* Import your Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&family=Montserrat&display=swap");
+
+/* Import Tailwind */
+@import "tailwindcss";
+
+/* Define custom fonts using @theme */
+@theme {
+  --font-sencondary: "Poppins", sans-serif;
+  --font-primary: "Raleway", sans-serif;
+  --font-t3: "Roboto", sans-serif;
+  --font-c2a: "Montserrat", sans-serif;
+}
+
+
