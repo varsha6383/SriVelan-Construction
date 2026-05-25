@@ -91,7 +91,7 @@ export default function Project() {
       {/* Lap */}
       <div className="hidden h-full w-full lg:block bg-white mb-[5%]  text-lg text-black">
         <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[70vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
-          <div className="flex text-white items-center text-center gap-4 py-[10%] px-[10%] flex-col">
+          <div className="flex text-shadow-gray-50 items-center text-center gap-4 py-[10%] px-[10%] flex-col">
             <p className="bg-[#407d7d]/60  px-3  font-semibold py-1 rounded-full cursor-pointer font-primary">
               PROJECTS
             </p>
@@ -165,7 +165,7 @@ export default function Project() {
   {/* TEXT CONTENT */}
   <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
     
-    <p className="text-white font-secondary text-4xl  font-semibold">
+    <p className="text-shadow-gray-50 font-secondary text-4xl  font-semibold">
       Coming Soon...
     </p>
 
@@ -175,7 +175,7 @@ export default function Project() {
         <ul className="space-y-2">
           {project.highlights.map((item, i) => (
             <li key={i} className="flex items-center justify-center gap-2">
-              <span className="text-white font-secondary text-2xl  font-semibold">
+              <span className="text-shadow-gray-50 font-secondary text-2xl  font-semibold">
                 {item}
               </span>
             </li>
@@ -265,7 +265,7 @@ export default function Project() {
 
       <div className="sm:hidden block  bg-white mb-[5%] text-lg text-black">
         <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[40vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
-          <div className="flex text-white items-center text-center gap-4 py-[10%] px-[8%] flex-col">
+          <div className="flex text-shadow-gray-50 items-center text-center gap-4 py-[10%] px-[8%] flex-col">
             <p className="bg-[#407d7d]/60  px-3  font-semibold py-1 rounded-full cursor-pointer font-primary">
               PROJECTS
             </p>
@@ -330,7 +330,7 @@ export default function Project() {
                     />
 
                     <div className="absolute inset-0 bg-black/50 rounded-4xl"/>
-                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-white text-3xl">
+                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-shadow-gray-50 text-2xl">
                       {" "}
                       Coming Soon.....
  {/* ✅ Highlights BELOW Coming Soon */}
@@ -343,7 +343,7 @@ export default function Project() {
             <li key={i} className="flex items-center gap-2">
              
 
-              <span className="text-white font-secondary text-4xl md:text-5xl font-semibold">
+              <span className="text-shadow-gray-50 font-secondary text-2xl  font-semibold">
                 {item}
               </span>
             </li>
@@ -415,7 +415,7 @@ export default function Project() {
 
       <div className="hidden lg:hidden md:block  bg-white mb-[5%] text-lg text-black">
         <div className="bg-[#218686] bg-blend-multiply flex items-center justify-center  rounded-bl-[80%_100px] rounded-br-[80%_100px] w-full h-[40vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg')]">
-          <div className="flex text-white items-center text-center gap-4 py-[10%] px-[8%] flex-col">
+          <div className="flex text-shadow-gray-50 items-center text-center gap-4 py-[10%] px-[8%] flex-col">
             <p className="bg-[#407d7d]/60  px-3  font-semibold py-1 rounded-full cursor-pointer font-primary">
               PROJECTS PROJECTS PROJECTS
             </p>
@@ -479,7 +479,7 @@ export default function Project() {
                       className="object-cover  h-full w-full rounded-4xl"
                     />
                     <div className="absolute inset-0 bg-black/50 rounded-4xl" />
-                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-white text-3xl">
+                    <div className="absolute top-[45%] left-[25%] font-semibold font-sencondary text-shadow-gray-50 text-3xl">
                       {" "}
                       Coming Soon.....
 
@@ -493,7 +493,7 @@ export default function Project() {
             <li key={i} className="flex items-center gap-2">
              
 
-              <span className="text-white font-secondary text-4xl md:text-5xl font-semibold">
+              <span className="text-shadow-gray-50 font-secondary text-3xl font-semibold">
                 {item}
               </span>
             </li>
